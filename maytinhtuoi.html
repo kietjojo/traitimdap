@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <body>
+
+        <h1>Máy tính tuổi</h1>
+        <button onclick="ThongTin()">Nhập tuổi của bạn</button>
+
+        <script type="text/javascript">
+            function ThongTin() {
+                var age = parseInt(prompt("Nhập tuổi của bạn: "));
+                document.getElementById("tuoi").innerHTML = "Tuổi của bạn là: " + age;
+            }
+        </script>
+
+        <h2 id="tuoi">Tuổi của bạn là:</h2>  
+
+    </body>
+</html>
